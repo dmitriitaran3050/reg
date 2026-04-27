@@ -287,6 +287,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -307,7 +308,6 @@ p {
   background: #ecf5f1;
   color: var(--green-dark);
   font-weight: 800;
-  white-space: nowrap;
 }
 
 .button-grid {
@@ -338,14 +338,13 @@ p {
 }
 
 .reg-button::before {
-  width: 22px;
-  height: 22px;
-  border-radius: 7px;
-  display: grid;
-  place-items: center;
-  background: rgba(255, 255, 255, 0.16);
-  font-size: 0.72rem;
-  font-weight: 800;
+  content: "";
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .reg-button--max {
@@ -353,7 +352,7 @@ p {
 }
 
 .reg-button--max::before {
-  content: "M";
+  background-image: url("./assets/icon-max.svg");
 }
 
 .reg-button--telegram {
@@ -361,7 +360,7 @@ p {
 }
 
 .reg-button--telegram::before {
-  content: "TG";
+  background-image: url("./assets/icon-telegram.svg");
 }
 
 .reg-button--vk {
@@ -369,7 +368,7 @@ p {
 }
 
 .reg-button--vk::before {
-  content: "VK";
+  background-image: url("./assets/icon-vk.svg");
 }
 
 .reg-button:focus-visible,
