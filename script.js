@@ -5,24 +5,24 @@
     YM_COUNTER_ID: 108656678,
     links: {
       money: {
-        max: "https://max.ru/your_bot",
-        telegram: "https://t.me/your_bot?start=money",
-        vk: "https://vk.com/im?sel=-your_group",
+        max: "https://s.salebot.pro//psi-reg-money_20",
+        telegram: "https://s.salebot.pro//psi-reg-money_1",
+        vk: "https://vk.ru/app7062840#psi-reg-money&force=1",
       },
       anxiety: {
-        max: "https://max.ru/your_bot",
-        telegram: "https://t.me/your_bot?start=anxiety",
-        vk: "https://vk.com/im?sel=-your_group",
+        max: "https://s.salebot.pro//psi-reg-anxiety_20",
+        telegram: "https://s.salebot.pro//psi-reg-anxiety_1",
+        vk: "https://vk.ru/app7062840#psi-reg-anxiety&force=1",
       },
       relationships: {
-        max: "https://max.ru/your_bot",
-        telegram: "https://t.me/your_bot?start=relationships",
-        vk: "https://vk.com/im?sel=-your_group",
+        max: "https://s.salebot.pro//psi-reg-relationships_20",
+        telegram: "https://s.salebot.pro//psi-reg-relationships_1",
+        vk: "https://vk.ru/app7062840#psi-reg-relationships&force=1",
       },
       change: {
-        max: "https://max.ru/your_bot",
-        telegram: "https://t.me/your_bot?start=change",
-        vk: "https://vk.com/im?sel=-your_group",
+        max: "https://s.salebot.pro//psi-reg-change_20",
+        telegram: "https://s.salebot.pro//psi-reg-change_1",
+        vk: "https://vk.ru/app7062840#psi-reg-change&force=1",
       },
     },
   };
